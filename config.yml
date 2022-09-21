@@ -58,10 +58,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: WangCat
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    # subtitle: "This is subtitle"
+    imageUrl: "wangcai.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -72,9 +72,9 @@ params:
         url: tags
 
   # home-info mode
-  # homeInfoParams:
-  #   Title: "Hi there \U0001F44B"
-  #   Content: Welcome to my blog
+  homeInfoParams:
+    Title: ""
+    Content: 
 
   # socialIcons:
   #   - name: twitter
