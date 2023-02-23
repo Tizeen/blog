@@ -69,3 +69,7 @@ New-NetIPAddress -IPAddress 192.168.124.1 -PrefixLength 24 -InterfaceIndex 65
 ## 来源
 
 - [Set up a NAT network](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/setup-nat-network)
+
+## 后续
+
+已经不用 Hyper-V 了，Hyper-V 会导致一些 VPN 软件有异常，初步判断是 DNS 相关的问题。
